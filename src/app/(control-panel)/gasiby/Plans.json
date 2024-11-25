@@ -1,0 +1,58 @@
+[
+	{
+		"title": "STANDARD",
+		"price": "199",
+		"apiCalls": "1,00,000",
+		"postLimitInfo": "Post limit charges $0.003 per API call",
+		"features": [
+			"Access to all data endpoints, including advanced data (cast, episode info)",
+			"High-resolution images",
+			"Priority email support with 12-hour response time"
+		],
+		"limitations": ["Rate limiting: 10 requests per second"],
+		"idealFor": ["Growing companies requiring comprehensive data and higher usage limits"],
+		"buttonLabel": "Choose Plan"
+	},
+	{
+		"title": "STANDARD",
+		"price": "199",
+		"apiCalls": "1,00,000",
+		"postLimitInfo": "Post limit charges $0.003 per API call",
+		"features": [
+			"Access to all data endpoints, including advanced data (cast, episode info)",
+			"High-resolution images",
+			"Priority email support with 12-hour response time"
+		],
+		"limitations": ["Rate limiting: 10 requests per second"],
+		"idealFor": ["Growing companies requiring comprehensive data and higher usage limits"],
+		"buttonLabel": "Choose Plan"
+	},
+	{
+		"title": "STANDARD",
+		"price": "199",
+		"apiCalls": "1,00,000",
+		"postLimitInfo": "Post limit charges $0.003 per API call",
+		"features": [
+			"Access to all data endpoints, including advanced data (cast, episode info)",
+			"High-resolution images",
+			"Priority email support with 12-hour response time"
+		],
+		"limitations": ["Rate limiting: 10 requests per second"],
+		"idealFor": ["Growing companies requiring comprehensive data and higher usage limits"],
+		"buttonLabel": "Choose Plan"
+	},
+	{
+		"title": "STANDARD",
+		"price": "199",
+		"apiCalls": "1,00,000",
+		"postLimitInfo": "Post limit charges $0.003 per API call",
+		"features": [
+			"Access to all data endpoints, including advanced data (cast, episode info)",
+			"High-resolution images",
+			"Priority email support with 12-hour response time"
+		],
+		"limitations": ["Rate limiting: 10 requests per second"],
+		"idealFor": ["Growing companies requiring comprehensive data and higher usage limits"],
+		"buttonLabel": "Choose Plan"
+	}
+]
