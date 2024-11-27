@@ -1,0 +1,96 @@
+{
+  "questions": [
+    {
+      "question": "Where can I use Gatsby?",
+      "answer": "You can use Gatsby on any modern device with a web browser."
+    },
+    {
+      "question": "Is Gatsby free to use?",
+      "answer": "Yes, Gatsby is completely free for users."
+    },
+    {
+      "question": "Does Gatsby have a mobile app?",
+      "answer": "Currently, Gatsby is a web-based platform and does not have a mobile app."
+    },
+    {
+      "question": "What if I have no friends on Gatsby?",
+      "answer": "Gatsby can help you connect with others who share similar interests!"
+    },
+    {
+      "question": "What can I do with my friends on the app?",
+      "answer": "You can share recommendations, reviews, and discover new entertainment together."
+    }
+  ],
+  "planItems": [
+    {
+      "iconSrc1": "assets/images/home/avatar1.png",
+      "iconSrc2": "assets/images/home/avatar2.png",
+      "iconSrc3": "assets/images/home/avatar3.png",
+      "iconSrc4": "assets/images/home/avatar4.png",
+      "altText": "Rate Limiting",
+      "title": "Rate Limiting",
+      "description": "Period dramas that make you wish you had a time machine",
+      "avatar": "assets/images/home/user.png",
+      "hard": "assets/images/home/sm_heart.png",
+      "movie": "assets/images/home/movie.png"
+    },
+    {
+      "iconSrc1": "assets/images/home/avatar1.png",
+      "iconSrc2": "assets/images/home/avatar2.png",
+      "iconSrc3": "assets/images/home/avatar3.png",
+      "iconSrc4": "assets/images/home/avatar4.png",
+      "altText": "Rate Limiting",
+      "title": "Rate Limiting",
+      "description": "Period dramas that make you wish you had a time machine",
+      "avatar": "assets/images/home/user.png",
+      "hard": "assets/images/home/sm_heart.png",
+      "movie": "assets/images/home/movie.png"
+    },
+    {
+      "iconSrc1": "assets/images/home/avatar1.png",
+      "iconSrc2": "assets/images/home/avatar2.png",
+      "iconSrc3": "assets/images/home/avatar3.png",
+      "iconSrc4": "assets/images/home/avatar4.png",
+      "altText": "Feature Access",
+      "title": "Feature Access",
+      "description": "Period dramas that make you wish you had a time machine",
+      "avatar": "assets/images/home/user.png",
+      "hard": "assets/images/home/sm_heart.png",
+      "movie": "assets/images/home/movie.png"
+    }
+  ],
+  "Movie": [
+    {
+      "movie": "assets/images/home/avatar4.png",
+      "alter": "Queen Charlotte: A Bridgerton Story"
+    },
+    {
+      "movie": "assets/images/home/avatar1.png",
+      "alter": "3 Body Problem"
+    },
+    {
+      "movie": "assets/images/home/avatar2.png",
+      "alter": "Bridgerton"
+    },
+    {
+      "movie": "assets/images/home/avatar3.png",
+      "alter": "Suits"
+    },
+    {
+      "movie": "assets/images/home/avatar1.png",
+      "alter": "Queen Charlotte: A Bridgerton Story"
+    },
+    {
+      "movie": "assets/images/home/avatar2.png",
+      "alter": "3 Body Problem"
+    },
+    {
+      "movie": "assets/images/home/avatar3.png",
+      "alter": "Bridgerton"
+    },
+    {
+      "movie": "assets/images/home/avatar4.png",
+      "alter": "Suits"
+    }
+  ]
+}

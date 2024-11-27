@@ -1,0 +1,27 @@
+[
+  {
+    "number": "1",
+    "title": "Choose Your Plan",
+    "description": "Select the tier that best fits your business needs."
+  },
+  {
+    "number": "2",
+    "title": "Sign Up",
+    "description": "Create an account and obtain your unique API key."
+  },
+  {
+    "number": "3",
+    "title": "Integrate the API",
+    "description": "Use our comprehensive documentation to integrate quickly."
+  },
+  {
+    "number": "4",
+    "title": "Monitor Usage",
+    "description": "Keep track of your API calls via our dashboard to avoid overage charges."
+  },
+  {
+    "number": "5",
+    "title": "Upgrade Anytime",
+    "description": "Easily upgrade your plan as your business grows."
+  }
+]

@@ -4,7 +4,7 @@ import { ModernPricingItemType } from "./ModernPricingItemType";
 import FuseSvgIcon from "@fuse/core/FuseSvgIcon";
 import Checkbox from "@mui/material/Checkbox";
 const FeatureItem = ({ title }: { title: string }) => (
-  <div className="flex">
+  <div className="flex gap-4 px-8">
     <Checkbox checked className="p-0 text-green-300 checked:text-green-700" />
     <FuseSvgIcon className="text-green-600" fontSize="small" />
     <Typography className="ml-2 leading-5">
@@ -128,6 +128,35 @@ const pricingData: ModernPricingItemType[] = [
     details: (
       <div className="mt-16 space-y-8">
         <FeatureItem title="Large enterprises with specific requirements and extremely high usage" />
+      </div>
+    ),
+    description: undefined,
+  },
+  {
+    period: "month",
+    title: "Free",
+    subtitle: "Up to 200 API calls /month",
+    negotiable: "0 $",
+    Feauture: (
+      <div className="mt-16 space-y-8">
+        <FeatureItem title=" Access to basic data endpoints (ratings, descriptions, where to watch)" />
+        <FeatureItem title=" Standard resolution images" />
+        <FeatureItem title=" Email support with 48-hour response time" />
+        <FeatureItem title=" Tailored SLA agreements" />
+      </div>
+    ),
+    Limitation: (
+      <div className="mt-16 space-y-8">
+        <FeatureItem title=" No access to advanced data (cast bios, episode details)" />
+        <FeatureItem title="Rate limiting: 1 request per second" />
+      </div>
+    ),
+    yearlyPrice: "49.00",
+    monthlyPrice: "0",
+    buttonTitle: "Choose plan",
+    details: (
+      <div className="mt-16 space-y-8">
+        <FeatureItem title="Allows potential clients to explore basic functionalities before upgrading" />
       </div>
     ),
     description: undefined,

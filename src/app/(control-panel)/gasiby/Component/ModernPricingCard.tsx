@@ -7,11 +7,10 @@ import ChooseButton from "./Button";
 
 type ModernPricingCardProps = ModernPricingItemType & {
   className?: string;
+  isSelected?: boolean;
+  onClick?: () => void;
 };
 
-/**
- * The modern pricing card component.
- */
 function ModernPricingCard(props: ModernPricingCardProps) {
   const {
     period = "",
@@ -26,21 +25,21 @@ function ModernPricingCard(props: ModernPricingCardProps) {
     isPopular = false,
     details = "",
     className = "",
+    isSelected = false,
+    onClick,
   } = props;
+
+  const handleChoosePlan = (): void => {
+    alert(`You selected the ${title} plan!`);
+  };
 
   return (
     <Paper
+      onClick={onClick}
       className={clsx(
-        "relative max-w-sm flex-col px-10 py-14 md:max-w-none",
-        isPopular && "",
-        className
+        "relative w-full flex-col px-10 py-14 md:max-w-none border-2 transition-colors duration-200", // Use transition for smoothness
+        isSelected ? "border-blue-500" : "border-transparent" // Use a transparent border when not selected
       )}
-      sx={[
-        isPopular &&
-          ((theme) => ({
-            border: `1px solid ${theme.palette.secondary.main}!important`,
-          })),
-      ]}
     >
       {isPopular && (
         <div className="absolute inset-x-0 -top-16 flex items-center justify-center">
@@ -52,7 +51,7 @@ function ModernPricingCard(props: ModernPricingCardProps) {
         </div>
       )}
       <div className="items-center">
-        <Typography className="text-center  text-purple-400 text-4xl font-bold leading-tight tracking-tight">
+        <Typography className="text-center text-purple-400 text-4xl font-bold leading-tight tracking-tight">
           {title}
         </Typography>
         <div className="flex flex-col items-center justify-center whitespace-nowrap">
@@ -81,30 +80,30 @@ function ModernPricingCard(props: ModernPricingCardProps) {
       </div>
       <div className="border-b-2 border-dashed border-accent my-20 w-full rounded" />
       <div className="">
-        <div className="flex flex-col gap-4 w-full mb-4 h-[220px]">
-          <Typography className="text-[16px] font-bold">Purpose:</Typography>
+        <div className="flex flex-col gap-4 w-full mb-4 sm:h-320 md:h-256 xl:h-216">
+          <Typography className="text-17 font-bold">Purpose:</Typography>
           <div className="flex items-start gap-4">
-            <Typography className="text-[14px]">{Feauture}</Typography>
+            <Typography className="text-17">{Feauture}</Typography>
           </div>
         </div>
-        <div className="flex flex-col gap-4 w-full mb-4 h-[120px] min-[1600px]:h-[110px] ">
-          <Typography className="text-[16px] font-bold">
-            Limitations:
-          </Typography>
+        <div className="flex flex-col gap-4 w-full mb-4 h-128 min-[1600px]:h-[190px] ">
+          <Typography className="text-17 font-bold">Limitations:</Typography>
           <div className="flex items-start gap-4">
             <Typography className="text-[14px] text-black">
               {Limitation}
             </Typography>
           </div>
         </div>
-        <div className="flex flex-col gap-4 w-full mb-4 h-[100px]">
-          <Typography className="text-[16px] font-bold">Ideal For:</Typography>
+        <div className="flex flex-col gap-4 w-full mb-4 h-96 min-[1600px]:h-[250px]">
+          <Typography className="text-17 font-bold">Ideal For:</Typography>
           <div className="flex items-start gap-4">
             <Typography className="text-[14px]">{details}</Typography>
           </div>
         </div>
       </div>
-      <div className="items-center pt-20 px-24">{ChooseButton()}</div>
+      <div className="items-center pt-20 px-24">
+        <ChooseButton onClick={handleChoosePlan} isSelected={isSelected} />{" "}
+      </div>
     </Paper>
   );
 }

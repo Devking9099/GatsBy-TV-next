@@ -196,3 +196,13 @@ input:-webkit-autofill:active {
 .swiper-button-next {
   display: none;
 }
+
+#gradientBackground {
+  background: linear-gradient(
+    48deg,
+    #8fcfff 12.63%,
+    #65bcff 33.17%,
+    #37a8ff 54.61%,
+    #007ede 101.94%
+  );
+}
